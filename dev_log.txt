@@ -1,1 +1,11 @@
-	
+	The purpose of the website is to help one calculate the risk of a company.
+The original prototype involved the user inputting three different parameters,
+which would then be used to calculate the risk, which is displayed on the
+screen. To handle the backend, we used the Flask framework. Flask recieves the
+input sent by the user, calculates the output, and updates the webpage with the
+appropriate value. After building this model, we wanted to improve the
+functionality. Using a flask extention called SQLAlchemy, we created a database
+that stores data for a predetermined group of companies for the user. We changed
+the UI from three input parameters to a single selection bar to make it easier
+for the user. All the user needs to do is select the company he or she desires 
+for the result to be calculated.
