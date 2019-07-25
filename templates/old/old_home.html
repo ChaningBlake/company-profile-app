@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <title>Company Profile</title>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="../static/d_logo.png" alt="Deloitte Logo">
+        <h1>Company Profile Calculator</h1>
+    </div>
+    <div class="container">
+        <div class="one">
+            <form id = "form1" action="/result.html" method="POST" autocomplete="off">
+                <p>Please fill in the following parameters</p><br>
+                <div class="param">
+                    <label for="paramA">Parameter A:</label><br>
+                    <input name="paramA" type="text">
+
+                    <label for="paramB">Parameter B:</label><br>
+                    <input name="paramB" type="text">
+
+
+                    <label for="paramC">Parameter C:</label><br>
+                    <input name="paramC" type="text">
+                </div>
+            </form>
+            <button type="submit" form="form1">Calculate</button>
+        </div>
+        
+        <div class="two">
+                <h3>Result:</h3>
+        </div>
+    </div>
+
+</body>
+</html>

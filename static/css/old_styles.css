@@ -1,0 +1,121 @@
+/*
+    HEADER WITH LOGO AND TITLE
+ */
+.header {
+    margin: 0px 0px 35px 0px; 
+    padding: 20px 0px 10px 0px;
+    background: #0f0b0b;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: #565656;
+    border-width: 5px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: -70px;
+}
+
+.logo {
+    display: block;
+    height: 100px;
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin: -2px 0px 0px 15px;
+}
+
+
+/*
+    BODY
+ */
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+/*
+    Input Box
+ */
+
+.one {
+    float: left;
+    margin-right: 0px;
+    width: 50%;
+    flex-basis: 100%;
+}
+
+p {
+    padding: 25px 25px 0px 25px;
+    margin: 0px;
+    font-size: 18px;
+    color: #758294;
+}
+
+form {
+    background: #dcdcdd;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 90%;
+}
+
+.param {
+    padding: 0px 25px 0px 25px;
+}
+
+button {
+    width: 100%;
+    height: 10%;
+    border: none;
+    background: #86bc24;
+    padding: 0px;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    height: 30px;
+    margin: 5px 0px 40px 0px;
+    font-size: 24px;
+    padding-left: 5px;
+    outline: none;
+}
+
+/*
+    Result Box
+ */
+.two {
+    float: right;
+    padding: 25px;
+    margin-left: 50px;
+    background: #dcdcdd;
+    width: 50%;
+    flex-basis: 100%;
+}
+
+h3 {
+    margin: 0px;
+    text-align: center;
+    font-size: 48px;
+}
+
+/*
+    Mobile Formatting
+ */
+
+ @media screen and (max-width: 830px) {
+    
+
+ }
