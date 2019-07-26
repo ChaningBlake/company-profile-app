@@ -13,7 +13,8 @@ class Company(Base):
 
 	id = Column(Integer, primary_key=True)
 	name = Column(String)
-	upnew = Column(Float)
+	upnew = Column(Integer)
+	offerprice = Column(Integer)
 
 	def __init__(self):
 		pass
