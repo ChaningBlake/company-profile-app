@@ -21,10 +21,13 @@ def get_result():
 	x = int(request.form['paramA'])
 	y = int(request.form['paramB'])
 	z = int(request.form['paramC'])
-	calculation = x + y + z
+	calc1 = round((.32*x + .45*y + .23*z), 2)
+	calc2 = round((.50*x + .14*y + .36*z), 2)
+	calc3 = round((.25*x + .59*y + .16*z), 2)
+	calc4 = round((.60*x + .25*y + .15*z), 2)
 	
 	return render_template("result.html",
-	                        result=calculation)
+	                        result=calc1)
 
 if __name__ == "__main__":
     app.run(debug=True)
