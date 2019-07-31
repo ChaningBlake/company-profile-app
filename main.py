@@ -27,7 +27,10 @@ def get_result():
 	calc4 = round((.60*x + .25*y + .15*z), 2)
 	
 	return render_template("result.html",
-	                        result=calc1)
+	                        result=calc1,
+							result2 = calc2,
+							result3 = calc3,
+							result4 = calc4)
 
 if __name__ == "__main__":
     app.run(debug=True)

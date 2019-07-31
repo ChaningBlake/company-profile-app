@@ -95,8 +95,7 @@ input {
 
 /*
     Result Box
- */
-.two {
+ */ .two {
     float: right;
     padding: 25px;
     margin-left: 50px;
@@ -109,4 +108,9 @@ h3 {
     margin: 0px;
     text-align: center;
     font-size: 48px;
+}
+
+h2 {
+	text-align: left;
+	font-size: 48px;
 }
